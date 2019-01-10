@@ -1,7 +1,7 @@
 import pickle
 
 nLabel, nTrial, nUser, nChannel, nTime  = 4, 40, 32, 40, 8064  #10080/80=126*40=5040 features
-no_of_users=3
+no_of_users=32
 def sampleFeatures():
     print("Program started"+"\n")
     fout_data = open('data/features_sampled.dat','w')
