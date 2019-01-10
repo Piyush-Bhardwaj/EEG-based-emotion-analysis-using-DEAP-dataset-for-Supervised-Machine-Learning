@@ -6,9 +6,10 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 import pandas as pd
-
+import warnings
  
 def svm_classifier_lda():
+    warnings.filterwarnings("ignore")
     file_x = 'data/features_raw.dat'
     file_y = 'data/label_class_0.dat'
     print("LABEL 0 - Valence \n ")
