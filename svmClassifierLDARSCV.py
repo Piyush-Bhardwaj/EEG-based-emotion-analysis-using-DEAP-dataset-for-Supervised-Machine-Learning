@@ -6,8 +6,10 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 from sklearn.pipeline import make_pipeline
 from sklearn.model_selection import RandomizedSearchCV
+import warnings
  
 def svm_classifier_lda_rscv():
+    warnings.filterwarnings("ignore")
     file_x = 'data/features_raw.dat'
     file_y = 'data/label_class_0.dat'
     
