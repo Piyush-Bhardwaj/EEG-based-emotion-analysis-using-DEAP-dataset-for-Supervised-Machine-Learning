@@ -3,7 +3,9 @@ def data_visual():
     import seaborn as sns
     from pandas.plotting import scatter_matrix
     import matplotlib.pyplot as plt
+    import warnings
     
+    warnings.filterwarnings("ignore")
     features = pd.read_csv('features.csv') 
     labels = pd.read_csv('labels.csv')
 
