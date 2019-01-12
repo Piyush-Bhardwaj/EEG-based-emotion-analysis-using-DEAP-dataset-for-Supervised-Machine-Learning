@@ -18,8 +18,6 @@ This project is for classification of  emotions using EEG signals recorded in th
 
 2)Run the runFile.py file
 
-3)you can view the code output for 5 user data in Jupyter notebook using--->> EEG analysis using DEAP dataset.ipynb file
-
 
 
 
