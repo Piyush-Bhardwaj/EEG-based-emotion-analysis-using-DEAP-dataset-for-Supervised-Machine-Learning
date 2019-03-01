@@ -10,14 +10,9 @@ from cross_validation2 import cross_validate2
 from cross_validation3 import cross_validate3
 from data_visual import data_visual
 from svmClassifier import svm_classifier
-from svmClassifierLDA import svm_classifier_lda
-from svmClassifierLDARSCV import svm_classifier_lda_rscv
 from svmClassifierPCA import svm_classifier_pca
 from knnClassifier import knn_classifier
-from knnClassifierLDA import knn_classifier_lda
 from knnClassifierPCA import knn_classifier_pca
-from Russell_circumplex import Russell_circumplex
-from display_emotion import Display_emotion
 
 if __name__ == '__main__':
     print('Load Data:\n')
@@ -48,15 +43,6 @@ if __name__ == '__main__':
     knn_classifier_pca()
     print('SVM with PCA classification: \n\n')
     svm_classifier_pca()
-    print('KNN with LDA classification: \n\n')
-    knn_classifier_lda()
-    print('SVM with LDA and RandomizedSearchCV classification: \n\n')
-    svm_classifier_lda_rscv()
-    print('SVM with LDA classification: \n\n')
-    svm_classifier_lda()
-    print('Applying Russell circumplex model for emotion \n\n')
-    Russell_circumplex()
-    print('Displaying Emotion \n\n')
-    Display_emotion()
+    
     
     
